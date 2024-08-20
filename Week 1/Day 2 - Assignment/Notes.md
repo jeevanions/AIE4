@@ -38,6 +38,8 @@ Think of the famous Russian Matryoshka dolls—those (pronounced as Matroshka) w
 
 ### Question 4: What prompting strategies could you use to make the LLM have a more thoughtful, detailed response?
 
+1. Example driven prompts - Few shot prompting
+2. Chain of thoughts - Break down the complex tasks based on reasoning and provide some examples which helps LLM to better respond with accuracy and detail.
 
 
 ## Improvements & Experimentation
@@ -118,14 +120,14 @@ Part title will be above part number line
    Not Tried
 
 #### 8. **Mahalanobis Distance**
-   Not Tried
+Not Tried
 
 
 ### Attributes
-
+Need more time
 
 ### Using PDF documents
-
+Completed
 
 # References
 
