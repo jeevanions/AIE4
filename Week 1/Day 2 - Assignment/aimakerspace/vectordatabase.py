@@ -4,6 +4,7 @@ from collections import defaultdict
 from typing import List, Tuple, Callable
 from aimakerspace.openai_utils.embedding import EmbeddingModel
 import asyncio
+import PyPDF2
 
 
 def cosine_similarity(vector_a: np.array, vector_b: np.array) -> float:
