@@ -99,6 +99,28 @@ class VectorDatabase:
             self.insert(text, np.array(embedding))
         return self
 
+    async def build_from_pdf(self, pdf_path: str, chunk_size: int = 250) -> "VectorDatabase":
+        pdf_reader = PyPDF2.PdfReader(pdf_path)
+        text_chunks = []
+        print('Number of pages:', len(pdf_reader.pages))
+        for page_num in range(len(pdf_reader.pages)):
+            page = pdf_reader.pages[page_num]
+            text = page.extract_text()
+            # Split text into chunks of specified size
+            for i in range(0, len(text), chunk_size):
+                chunk = text[i:i + chunk_size]
+                text_chunks.append(chunk)
+
+        print('Number of chunks:', len(text_chunks))
+        # Generate embeddings and store them
+        for index, chunk in enumerate(text_chunks):
+            embedding = self.embedding_model.get_embedding(chunk)
+            self.insert(chunk, np.array(embedding))
+            if index % 1000 == 0:
+                print(f"Processed {index} chunks.")
+
+        return self
+
 
 if __name__ == "__main__":
     list_of_text = [

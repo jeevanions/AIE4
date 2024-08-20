@@ -47,10 +47,20 @@ Think of the famous Russian Matryoshka dolls—those (pronounced as Matroshka) w
 Title - First Line is always Title
 Post Details:
 Contents
-    Sections
+    Chapters
        Parts
           Pages
             Chunks & Attributes
+
+line 1 - Blog title
+line 2  - description
+line 3  - Author
+line 4-6 - Blog attributes
+line 7 Table of content
+Line 8 Chapter
+Line 8-25 part numbers
+each part starts like this "Part <part number>:" example for part 1 it will start by "part 1:" 
+Part title will be above part number line
 
 #### Chunking
 
