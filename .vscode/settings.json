@@ -1,0 +1,11 @@
+{
+    "python.analysis.extraPaths": [
+        "/opt/miniconda3/envs/llmops-course/lib/python3.11/site-packages",
+    ],
+    "python.terminal.activateEnvironment": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "python.defaultInterpreterPath": "/opt/miniconda3/envs/llmops-course/bin/python",
+    "sarif-viewer.connectToGithubCodeScanning": "off"
+}
