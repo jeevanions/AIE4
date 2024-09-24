@@ -1,6 +1,7 @@
 {
     "python.analysis.extraPaths": [
         "/opt/miniconda3/envs/llmops-course/lib/python3.11/site-packages",
+        "/Users/jeevan/Documents/Learnings/ai-engineering-bootcamp/AIE4/AIE4/mid-term/ai-safety-chatapp/venv/lib/python3.11/site-packages"
     ],
     "python.terminal.activateEnvironment": false,
     "python.analysis.diagnosticSeverityOverrides": {
