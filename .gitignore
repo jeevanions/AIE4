@@ -8,4 +8,4 @@ Week 1/Day 2 - Assignment/.DS_Store
 .DS_Store
 .toshare
 
-venv/*
+**/venv/*
