@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="t0nJhT5sohu87mCcE8RK" name="Page-1">
+        <mxGraphModel dx="1649" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="241" y="45" width="710" height="482" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="92" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="169" width="407" height="302" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="668" y="83" width="139" height="161" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="303" y="194" width="362" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="303" y="273" width="362" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="306" y="371" width="362" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Backend&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="968" y="67" width="201" height="408" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="OpenAi/Claud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1334" y="50" width="201" height="408" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Download PDF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="605" y="487" width="85" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Qdrant&lt;br&gt;Vector DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1186" y="89" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="1. Frontedn&lt;br&gt;2. Backend&lt;br&gt;3. QDrant" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="49" y="55" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
